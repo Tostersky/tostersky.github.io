@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CyberWar">
+<meta name="theme-color" content="#07060f">
+<title>CyberWar</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&display=swap">
+<!-- ?v= must change on every release so phones never mix old and new files -->
+<link rel="stylesheet" href="css/style.css?v=0.15.5">
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="ui"></div>
+<div id="boot">
+  <div class="boot-logo">CYBER<span>WAR</span></div>
+  <div class="boot-sub">NEO-CITY // v0.15.4</div>
+  <div class="boot-bar"><i></i></div>
+</div>
+<!-- not shown any more: the game works upright and sideways -->
+<div id="rotate">
+  <svg viewBox="0 0 120 120" aria-hidden="true"><rect class="ph" x="38" y="18" width="44" height="78" rx="7"/><path class="ar" d="M22 74 A42 42 0 0 1 40 30 M40 30 l-11 1 M40 30 l-2 11"/></svg>
+  <b>Obróć telefon poziomo</b><span>Rotate your phone to landscape</span>
+</div>
+<script src="js/i18n.js?v=0.15.5"></script>
+<script src="js/audio.js?v=0.15.5"></script>
+<script src="js/data.js?v=0.15.5"></script>
+<script src="js/core.js?v=0.15.5"></script>
+<script src="js/art.js?v=0.15.5"></script>
+<script src="js/world.js?v=0.15.5"></script>
+<script src="js/econ.js?v=0.15.5"></script>
+<script src="js/state.js?v=0.15.5"></script>
+<script src="js/village.js?v=0.15.5"></script>
+<script src="js/battle.js?v=0.15.5"></script>
+<script src="js/ui.js?v=0.15.5"></script>
+<script src="js/clan.js?v=0.15.5"></script>
+<script src="js/tutorial.js?v=0.15.5"></script>
+<script src="js/net.js?v=0.15.5"></script>
+<script src="js/pay.js?v=0.15.5"></script>
+<script src="js/auth.js?v=0.15.5"></script>
+<script src="js/main.js?v=0.15.5"></script>
+</body>
+</html>
