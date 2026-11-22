@@ -1,1 +1,15 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.tostersky.cyberwar","sha256_cert_fingerprints":["8F:43:84:AB:0F:33:89:37:3E:B7:B7:A5:43:24:85:89:8D:B0:07:D3:61:77:94:F9:E4:BC:15:7B:C8:0F:C0:23"]}}]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.tostersky.cyberwar",
+      "sha256_cert_fingerprints": [
+        "DB:A0:5F:09:0E:F5:41:AB:A5:2C:23:B7:4F:D2:47:B8:1E:F9:89:2C:2B:65:09:2A:53:05:72:EE:F9:ED:B1:F2",
+        "8F:43:84:AB:0F:33:89:37:3E:B7:B7:A5:43:24:85:89:8D:B0:07:D3:61:77:94:F9:E4:BC:15:7B:C8:0F:C0:23"
+      ]
+    }
+  }
+]
